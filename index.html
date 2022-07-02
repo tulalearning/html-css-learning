@@ -6,28 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Pacifico|Kanit|Roboto"
+      href="https://fonts.googleapis.com/css?family=Pacifico|Kanit|Roboto|Source Sans Pro"
     />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d79db4be89.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Cookie Teerak</title>
   </head>
   <body>
-    <h1 style="font-family: Pacifico; text-align: center">
-      Bake by Cookie Teerak
-    </h1>
-    <section
-      style="
-        display: grid;
-        grid-template-columns: auto auto;
-        background-color: #f7f6f2;
-        padding: 10px;
-      "
-    >
+    <h1 class="title">Bake by Cookie Teerak</h1>
+    <section class="aboutUs">
       <img
         src="./assets/bakeByCookieTeerak-logo.jpg"
         alt="logo"
-        style="width: 300px; height: 300px; margin: 1rem"
+        class="aboutUsImg"
       />
-      <p style="font-family: kanit">
+      <p class="aboutUsText">
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
         and typesetting industry. Lorem Ipsum has been the industry's standard
         dummy text ever since the 1500s, when an unknown printer took a galley
@@ -39,57 +35,57 @@
         versions of Lorem Ipsum.
       </p>
     </section>
-    <h1 style="font-family: Roboto; text-align: center">Product Gallery</h1>
-    <section
-      style="
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: #f7f6f2;
-        padding: 10px;
-      "
-    >
-      <img
-        src="./assets/products/singaporeCookie.jpg"
-        alt="Singapore Cookie"
-        style="width: 240px; height: 320px; text-align: center"
-      />
-      <img
-        src="./assets/products/bananaOriginal.jpg"
-        alt="Banana Cake Original"
-        style="width: 320px; height: 240px; text-align: center"
-      />
-      <img
-        src="./assets/products/bananaDoubleChoc.jpg"
-        alt="Banana Cake Double Chocolate"
-        style="width: 320px; height: 240px; text-align: center"
-      />
-      <p style="font-family: kanit; text-align: center">Singapore Cookie</p>
-      <p style="font-family: kanit; text-align: center">Banana Cake Original</p>
-      <p style="font-family: kanit; text-align: center">
-        Banana Cake Double Chocolate
-      </p>
+    <h1 class="subTitle">Product Gallery</h1>
+    <section class="productGallery">
+      <div class="card">
+        <img
+          src="./assets/products/singaporeCookie.jpg"
+          alt="Singapore Cookie"
+          class="productImgRetangleLandscape"
+        />
+        <p style="font-family: kanit; text-align: center">Singapore Cookie</p>
+      </div>
+      <div>
+        <img
+          src="./assets/products/bananaOriginal.jpg"
+          alt="Banana Cake Original"
+          class="productImgRetangleVertical"
+        />
+        <p style="font-family: kanit; text-align: center">
+          Banana Cake Original
+        </p>
+      </div>
+      <div>
+        <img
+          src="./assets/products/bananaDoubleChoc.jpg"
+          alt="Banana Cake Double Chocolate"
+          class="productImgRetangleVertical"
+        />
+        <p style="font-family: kanit; text-align: center">
+          Banana Cake Double Chocolate
+        </p>
+      </div>
     </section>
-    <hr />
-    <h2 style="font-family: Roboto; text-align: center">Contact Us</h2>
-    <div style="text-align: center">
-      <img
-        src="./assets/icons/fb.png"
-        alt="facebook icon"
-        style="width: 50px; height: 50px"
-      />
-      <p style="display: inline; font-family: kanit">cookieteerak</p>
-      <img
-        src="./assets/icons/ig.png"
-        alt="facebook icon"
-        style="width: 50px; height: 50px"
-      />
-      <p style="display: inline; font-family: kanit">cookieteerak</p>
-      <img
-        src="./assets/icons/line.png"
-        alt="facebook icon"
-        style="width: 50px; height: 50px"
-      />
-      <p style="display: inline; font-family: kanit">yingnan</p>
+    <h2 class="footer">Contact Us</h2>
+    <div class="footerContactUs">
+      <a
+        href="https://web.facebook.com/cookieteerak"
+        target="_blank"
+        class="linkContactUsIcon"
+        ><i class="fa-brands fa-facebook-square fa-2x fa-fw"></i
+      ></a>
+      <a
+        href="https://instagram.com/cookie.teerak?igshid=YmMyMTA2M2Y="
+        target="_blank"
+        class="linkContactUsIcon"
+        ><i class="fa-brands fa-instagram fa-2x fa-fw"></i
+      ></a>
+      <a
+        href="https://line.me/ti/p/1V4aGsP_g0"
+        target="_blank"
+        class="linkContactUsIcon"
+        ><i class="fa-brands fa-line fa-2x fa-fw"></i>
+      </a>
     </div>
   </body>
 </html>
