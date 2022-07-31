@@ -514,11 +514,11 @@ template {
   padding-left: 40px;
 }
 
-.form_row {
+.form_column {
   padding: 10px;
 }
 
-.form_row label {
+.form_column label {
   padding-right: 20px;
 }
 
